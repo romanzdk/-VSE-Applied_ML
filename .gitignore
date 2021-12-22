@@ -1,6 +1,13 @@
+.vscode
+.DS_Store
+
 venv
-data/1_raw_checkpoints
-data/2_raw_unioned.csv.gz
+
 data/games_checkpoint
 data/.ipynb_checkpoints
+data/1_raw_checkpoints
 data/1_unioned.csv
+data/2_raw_unioned.csv.gz
+data/4_processed
+
+*.log

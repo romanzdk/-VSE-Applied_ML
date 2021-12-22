@@ -1,0 +1,13 @@
+Rok narození
+Elo hráče před
+Hráč je žena
+Max elo
+Elo nejlepšího poraženého soupeře
+Rok narození soupeř
+Elo soupeře před
+Soupeř je žena
+Max elo_soupeř
+Elo nejlepšího poraženého soupeře_soupeř
+Den v týdnu
+Víkend
+obdobi
