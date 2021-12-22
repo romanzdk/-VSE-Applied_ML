@@ -14,4 +14,4 @@ I scraped entire EloST.cz database as of 12/2021. Used BeautifulSoup4. All in al
 - matplotlib
 - seaborn
 
-## 
+Using pyspark instead of pandas because of the dataset size. 
