@@ -13,7 +13,7 @@ The target was to get data, prepare it and create machine learning model.
 ## Data
 I scraped entire EloST.cz database as of 12/2021. Used BeautifulSoup4. All in all it is about 2GB of csv data (~6M rows, 21 columns).
 
-Data sample:
+**Raw** data sample:
 
 |            Hráč |                 Oddíl |                 Družstvo |               Soupeř |                               Oddíl soupeř |                          Družstvo soupeř | Výsledek | Datum zápasu |                   Soutěž |   Elo hráče |   Elo (min) |   Elo (max) | Elo soupeře | Elo (min) soupeře | Elo (max) soupeře | Rok narození | Max elo | Elo nejlepšího poraženého soupeře |                       ID Hráč |                 ID Soupeř | Rok narození soupeř |
 |----------------:|----------------------:|-------------------------:|---------------------:|-------------------------------------------:|-----------------------------------------:|---------:|-------------:|-------------------------:|------------:|------------:|------------:|------------:|------------------:|------------------:|-------------:|--------:|----------------------------------:|------------------------------:|--------------------------:|--------------------:|
