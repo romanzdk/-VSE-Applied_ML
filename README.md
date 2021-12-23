@@ -3,6 +3,14 @@
 Project created as a semestral work for *Practical applications of machine learning* subject at university.
 The target was to get data, prepare it and create machine learning model.
 
+For me personally it was pretty interesting task with some new things - e.g. distributed Keras NN with Elephas.
+
+Throughout the project I am using:
+- `beautifulsoup` + `requests` for data gathering
+- `matplotlib` + `seaborn` + `pandas` for data exploration
+- `pyspark` + `pandas` for data manipulation
+- `pyspark` + `keras` + `elephas` for modeling
+
 ## Process
 1. Data gathering
 2. Data union
