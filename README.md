@@ -15,3 +15,9 @@ I scraped entire EloST.cz database as of 12/2021. Used BeautifulSoup4. All in al
 - seaborn
 
 Using pyspark instead of pandas because of the dataset size. 
+
+## Results
+Around 75 - 80% accuracy/f1/precision/recall/auc on the test set.
+
+## Issues
+I had some issues with Java/Spark on my machine, that's why you can see some warnings in the notebooks. If you know what could be the cause of it, please let me know.
