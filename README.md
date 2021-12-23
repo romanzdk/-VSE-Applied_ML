@@ -44,4 +44,5 @@ I had some issues with Java/Spark on my machine, that's why you can see some war
 
 ## Improve
 - hyperparameter tuning
-- neural network
+- neural networks
+- additional data
