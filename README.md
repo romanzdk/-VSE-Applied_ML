@@ -37,6 +37,18 @@ I scraped entire EloST.cz database as of 12/2021. Used BeautifulSoup4. All in al
 |  Martin Novotný |          DDM Soběslav |           DDM Soběslav D |       Vojtěch Havlík |                  Katolický dům Dačice z.s. |                           ST KD Dačice A |      1:3 |    23.1.2014 | Krajská soutěž skupina C | 1392-> 1388 | 1376-> 1373 | 1426-> 1421 | 1468-> 1472 |       1454-> 1458 |       1485-> 1489 |         1958 |  1446.0 |                            1567.0 |  /st/hrac/novotny_martin_1958 |       havlik_vojtech_1994 |                1994 |
 |  Martin Novotný |          DDM Soběslav |           DDM Soběslav C |           Jan Smolík |  Tělocvičná jednota Sokol Kardašova Řečice |                   OST Kardašova Řečice A |      1:3 |    12.1.2013 | Krajská soutěž skupina C | 1385-> 1383 | 1348-> 1347 | 1426-> 1423 | 1539-> 1540 |       1522-> 1524 |       1551-> 1552 |         1958 |  1446.0 |                            1567.0 |  /st/hrac/novotny_martin_1958 |           smolik_jan_1996 |                1996 |
 
+
+
+Model inputs:
+
+| Rok narození | Elo hráče před | Hráč je žena | Max elo | Elo nejlepšího poraženého soupeře | Rok narození soupeř | Elo soupeře před | Soupeř je žena | Max elo_soupeř | Elo nejlepšího poraženého soupeře_soupeř | Den v týdnu | Víkend | obdobi | Hráč vyhrál |
+|-------------:|---------------:|-------------:|--------:|----------------------------------:|--------------------:|-----------------:|---------------:|---------------:|-----------------------------------------:|------------:|-------:|-------:|------------:|
+|       1990.0 |         2454.0 |          0.0 |  2458.0 |                            2446.0 |              1997.0 |           2377.0 |            0.0 |         2404.0 |                                   2425.0 |         1.0 |    0.0 |    4.0 |         1.0 |
+|       1990.0 |         2453.0 |          0.0 |  2458.0 |                            2446.0 |              1996.0 |           2241.0 |            0.0 |         2264.0 |                                   2339.0 |         2.0 |    0.0 |    4.0 |         1.0 |
+|       1990.0 |         2458.0 |          0.0 |  2458.0 |                            2446.0 |              1996.0 |           2419.0 |            0.0 |         2419.0 |                                   2458.0 |         1.0 |    0.0 |    4.0 |         0.0 |
+|       1990.0 |         2452.0 |          0.0 |  2458.0 |                            2446.0 |              1998.0 |           2315.0 |            0.0 |         2324.0 |                                   2419.0 |         2.0 |    0.0 |    4.0 |         1.0 |
+|       1990.0 |         2454.0 |          0.0 |  2458.0 |                            2446.0 |              2002.0 |           2318.0 |            0.0 |         2327.0 |                                   2454.0 |         2.0 |    0.0 |    4.0 |         0.0 |
+
 ## Results
 |model|      acc |       f1 | precision |   recall |      auc |
 |----:|---------:|---------:|----------:|---------:|---------:|
