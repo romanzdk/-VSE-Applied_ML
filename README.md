@@ -53,6 +53,24 @@ Model inputs:
 |  DT | 0.739318 | 0.733386 |  0.686170 | 0.787581 | 0.743283 |
 |  NN | 0.000000 |
 
+
+Logistic regression coefficients
+|                                Predictor | Coefficient |
+|-----------------------------------------:|-------------|
+|                           Elo hráče před |    2.770872 |
+|                                  Max elo |    0.456275 |
+|                             Rok narození |    0.056394 |
+|                           Max elo_soupeř |    0.038403 |
+|        Elo nejlepšího poraženého soupeře |    0.029778 |
+|                             Hráč je žena |    0.003589 |
+|                              Den v týdnu |    0.001842 |
+|                                   Víkend |    0.000000 |
+|                                   obdobi |    0.000000 |
+|                           Soupeř je žena |   -0.000492 |
+| Elo nejlepšího poraženého soupeře_soupeř |   -0.037615 |
+|                      Rok narození soupeř |   -0.121396 |
+|                         Elo soupeře před |   -3.538293 |
+
 ## Issues
 I had some issues with Java/Spark on my machine, that's why you can see some warnings in the notebooks. If you know what could be the cause of it, please let me know.
 
